@@ -1,0 +1,135 @@
+`define addu_op 6'b0
+`define addu_func 6'b100001
+`define subu_op 6'b0
+`define subu_func 6'b100011
+`define ori 6'b001101
+`define lw 6'b100011
+`define sw 6'b101011
+`define beq 6'b000100
+`define lui 6'b001111
+`define j 6'b000010
+`define jal 6'b000011
+`define jr_op 6'b0
+`define jr_func 6'b001000
+`define lb 6'b100000
+`define lbu 6'b100100
+`define lh 6'b100001
+`define lhu 6'b100101
+`define sb 6'b101000
+`define sh 6'b101001
+`define add_op 6'b0
+`define add_func 6'b100000
+`define sub_op 6'b0
+`define sub_func 6'b100010
+`define mult_op 6'b0
+`define mult_func 6'b011000
+`define multu_op 6'b0
+`define multu_func 6'b011001
+`define div_op 6'b0
+`define div_func 6'b011010 
+`define divu_op 6'b0
+`define divu_func 6'b011011 
+`define sll_op 6'b0
+`define sll_func 6'b0
+`define srl_op 6'b0
+`define srl_func 6'b000010 
+`define sra_op 6'b0
+`define sra_func 6'b000011 
+`define sllv_op 6'b0
+`define sllv_func 6'b000100 
+`define srlv_op 6'b0
+`define srlv_func 6'b000110
+`define srav_op 6'b0
+`define srav_func 6'b000111
+`define and_op 6'b0
+`define and_func 6'b100100 
+`define or_op 6'b0
+`define or_func 6'b100101 
+`define  xor_op 6'b0
+`define xor_func 6'b100110 
+`define nor_op 6'b0
+`define nor_func 6'b100111 
+`define addi 6'b001000 
+`define addiu 6'b001001
+`define andi 6'b001100
+`define xori 6'b001110 
+`define slt_op 6'b0
+`define slt_func 6'b101010 
+`define slti 6'b001010 
+`define sltiu 6'b001011 
+`define sltu_op 6'b0
+`define sltu_func 6'b101011 
+`define bne 6'b000101 
+`define blez 6'b000110 
+`define bgtz 6'b000111 
+`define bltz 6'b000001 
+`define bgez 6'b000001
+`define bgez_func 5'b00001
+`define bgtz_func 5'b0
+`define blez_func 5'b0
+`define bltz_func 5'b0
+`define jalr_op 6'b0 
+`define jalr_func 6'b001001 
+`define mfhi_op 6'b0
+`define mfhi_func 6'b010000 
+`define mflo_op 6'b0
+`define mflo_func 6'b010010 
+`define mthi_op 6'b0
+`define mthi_func 6'b010001  
+`define mtlo_op 6'b0 
+`define mtlo_func 6'b010011 
+
+
+
+
+
+`define nop_op 6'b0
+`define nop_func 6'b0
+`define ALUadd 6'b0000
+`define ALUsub 6'b0001
+`define ALUor 6'b0010
+`define ALUadd0 6'b0011
+`define ALUsll 6'b0100
+`define ALUsrl 6'b0101
+`define ALUsra 6'b0110
+`define ALUsllv 6'b0111
+`define ALUsrlv 6'b1000
+`define ALUsrav 6'b1001
+`define ALUand 6'b1010
+`define ALUxor 6'b1011 
+`define ALUnor 6'b1100 
+`define ALUslt 6'b1101 
+`define ALUsltu 6'b1110 
+`define ALUmul 6'b1111 
+`define ALUmulu 6'b10000 
+`define ALUdiv 6'b10001 
+`define ALUdivu 6'b10010 
+
+
+`define EXTsign 3'b000
+`define EXTzero 3'b001
+`define EXTlui 3'b010
+`define EXTsll 3'b011
+
+
+
+`define bra_beq 4'b0
+`define bra_bne 4'b0001 
+`define bra_blez 4'b0010 
+`define bra_bgtz 4'b0011 
+`define bra_bltz 4'b0100 
+`define bra_bgez 4'b0101 
+  /*wire beq ;
+    wire bne ;
+    wire blez ;
+    wire bgtz ;
+    wire bltz ;
+    wire bgez ;
+    wire jalr ;*/
+
+
+`define memlb_lw 4'b0
+`define memlb_lb 4'b1
+`define memlb_lbu 4'b10 
+`define memlb_lh 4'b11 
+`define memlb_lhu 4'b100 
